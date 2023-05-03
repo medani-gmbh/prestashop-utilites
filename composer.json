@@ -1,0 +1,41 @@
+{
+    "name": "medani-gmbh/prestashop-utilities",
+    "description": "Common utilities in the Prestashop space",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Medani\\Prestashop\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ben Schoeffmann",
+            "email": "benedikt.schoeffmann@medani.at",
+            "role": "Developer"
+        },
+        {
+            "name": "Daniel Murth",
+            "email": "daniel.murth@medani.at",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.5",
+        "prestashop/prestashop": "^1.7.8 || >=8"
+    },
+    "config": {
+        "prepend-autoloader": false,
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/PrestaShop/jwt"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
