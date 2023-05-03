@@ -22,7 +22,7 @@
     ],
     "require": {
         "php": ">=7.2.5",
-        "prestashop/prestashop": "^1.7.8 || >=8"
+        "prestashop/prestashop": ">=8"
     },
     "config": {
         "prepend-autoloader": false,
