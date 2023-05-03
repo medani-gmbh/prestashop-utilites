@@ -21,19 +21,15 @@
         }
     ],
     "require": {
-        "php": ">=7.2.5",
-        "prestashop/prestashop": ">=8"
+        "php": ">=7.2.5"
+    },
+    "require-dev": {
+        "prestashop/php-dev-tools": "^3.4"
     },
     "config": {
-        "prepend-autoloader": false,
-        "allow-plugins": false
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/PrestaShop/jwt"
-        }
-    ],
-    "minimum-stability": "dev",
-    "prefer-stable": true
+        "preferred-install": "dist",
+        "classmap-authoritative": true,
+        "optimize-autoloader": true,
+        "prepend-autoloader": false
+    }
 }
