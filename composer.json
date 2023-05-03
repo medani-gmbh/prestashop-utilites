@@ -26,9 +26,7 @@
     },
     "config": {
         "prepend-autoloader": false,
-        "allow-plugins": {
-            "composer/installers": false
-        }
+        "allow-plugins": false
     },
     "repositories": [
         {
