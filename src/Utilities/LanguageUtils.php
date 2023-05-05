@@ -6,7 +6,7 @@ use PrestaShop\PrestaShop\Adapter\Entity\Configuration;
 use PrestaShop\PrestaShop\Adapter\Entity\Language as LanguageCore;
 use ToolsCore;
 
-class LanguageUtilites {
+class LanguageUtils {
 
     public static function multiLangInputToArray(string $inputName): array
     {

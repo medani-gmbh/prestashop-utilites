@@ -3,7 +3,7 @@ namespace Medani\Prestashop\Utilities;
 
 use PrestaShop\PrestaShop\Adapter\Entity\Db;
 
-class ConfigurationUtilities {
+class ConfUtils {
 
     /**
      * Get all Configuration entries starting with $configurationName
