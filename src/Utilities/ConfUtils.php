@@ -28,6 +28,7 @@ class ConfUtils {
             }
             return $cleanedData;
         }
+
         return [];
     }
 
