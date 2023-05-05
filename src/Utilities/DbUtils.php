@@ -20,7 +20,7 @@ class DbUtils {
         return $return;
     }
 
-    public static function resultToSqlRange(array $values) {
+    public static function resultToSqlRange(array $values): string {
         return '(' . implode(',', $values) . ')';
     }
 
